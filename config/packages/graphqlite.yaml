@@ -1,0 +1,10 @@
+# Read more about GraphQLite available options at: https://graphqlite.thecodingmachine.io/docs/symfony-bundle
+graphqlite:
+  security:
+    enable_login: auto # Default setting
+    enable_me: auto # Default setting
+  namespace:
+    controllers: App\Controller\
+    types:
+      - App\
+      - App\GraphQL\Types\
